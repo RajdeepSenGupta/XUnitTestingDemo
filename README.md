@@ -19,9 +19,11 @@ All xUnit frameworks share the following basic component architecture, with some
   The execution of an individual unit test proceeds as follows:
   
     setup(); /* First, we should prepare our 'world' to make an isolated environment for testing */
+    
     ...
     /* Body of test - Here we make all the tests */
     ...
+    
     teardown(); /* At the end, whether we succeed or fail, we should clean up our 'world' to 
     not disturb other tests or code */
     
