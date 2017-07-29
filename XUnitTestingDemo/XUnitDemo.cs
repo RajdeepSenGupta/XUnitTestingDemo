@@ -7,7 +7,7 @@ using Xunit;
 
 namespace XUnitTestingDemo
 {
-    public class Class1
+    public class XUnitDemo
     {
         [Fact]
         public void PassingTest()
