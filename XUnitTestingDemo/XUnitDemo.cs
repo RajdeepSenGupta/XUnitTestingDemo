@@ -9,6 +9,7 @@ namespace XUnitTestingDemo
 {
     public class XUnitDemo
     {
+		
         [Fact]
         public void PassingTest()
         {
